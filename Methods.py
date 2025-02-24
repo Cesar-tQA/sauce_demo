@@ -6,7 +6,7 @@ class SauceDemoPage:
     #Locators
     page_name = (By.ID, 'user-name')
     page_password = (By.ID, 'password')
-    login_button = (By.ID, 'login-button')
+    login_button = (By.CSS_SELECTOR, "*[data-test=\"login-button\"]")
     sauce_labs_backpack = (By.ID, 'add-to-cart-sauce-labs-backpack')
     sauce_labs_bike_light = (By.ID, 'add-to-cart-sauce-labs-bike-light')
     sauce_labs_bolt_tshirt = (By.ID, 'add-to-cart-sauce-labs-bolt-t-shirt')
